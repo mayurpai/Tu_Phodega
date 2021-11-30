@@ -6,6 +6,7 @@ import ComputerLogo from "./images/Computer.jpeg";
 import ElectronicLogo from "./images/Electronic.jpeg";
 import MechanicalLogo from "./images/Mechanical.jpeg";
 import CivilLogo from "./images/Civil.jpeg";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
         link="Civil\Civil.html"
         image={CivilLogo}
       ></Card>
+      <Footer></Footer>
     </div>
   );
 }

@@ -1,0 +1,122 @@
+.Footer {
+  bottom: -30rem;
+  margin-bottom: 4rem;
+  height: 5rem;
+  width: 100vw;
+  position: absolute;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.Footer .Creator,
+.Footer .Copyright {
+  color: orangered;
+  position: absolute;
+  background-color: transparent;
+  letter-spacing: 0;
+  font-size: 1.5rem;
+  top: 45%;
+  font-family: serif;
+}
+
+.Footer .Creator {
+  left: 3rem;
+}
+
+.Footer .Creator a {
+  text-decoration: none;
+  color: orangered;
+}
+
+.Footer .Copyright {
+  top: 3rem;
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  left: 46.5%;
+}
+
+.Footer i {
+  background: transparent;
+}
+
+.Footer #fb {
+  position: absolute;
+  color: orangered;
+  top: 35%;
+  margin-right: 5rem;
+  font-size: 3rem;
+  right: 15rem;
+}
+
+.Footer #fb:hover {
+  color: #1877f2;
+}
+
+.Footer #whatsapp {
+  position: absolute;
+  color: orangered;
+  top: 35%;
+  margin-right: 5rem;
+  font-size: 3rem;
+  right: 18rem;
+}
+
+.Footer #whatsapp:hover {
+  color: #25d366;
+}
+
+.Footer #git {
+  position: absolute;
+  color: orangered;
+  top: 35%;
+  margin-right: 4rem;
+  font-size: 3rem;
+  right: 11.5rem;
+}
+
+.Footer #git:hover {
+  color: #6e5494;
+}
+
+.Footer #twitter {
+  position: absolute;
+  color: orangered;
+  top: 35%;
+  margin-right: 3rem;
+  font-size: 3rem;
+  right: 8rem;
+}
+
+.Footer #twitter:hover {
+  color: #1da1f2;
+}
+
+.Footer #insta {
+  position: absolute;
+  color: orangered;
+  top: 35%;
+  margin-right: 2rem;
+  font-size: 3rem;
+  right: 4.5rem;
+}
+
+.Footer #insta:hover {
+  color: #c32aa3;
+}
+
+.Footer #link {
+  position: absolute;
+  color: orangered;
+  top: 35%;
+  margin-right: 1rem;
+  font-size: 3rem;
+  right: 1rem;
+}
+
+.Footer #link:hover {
+  color: #007bb5;
+}
+/*# sourceMappingURL=Footer.css.map */
