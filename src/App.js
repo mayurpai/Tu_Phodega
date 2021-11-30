@@ -8,6 +8,7 @@ import MechanicalLogo from "./images/Mechanical.jpeg";
 import CivilLogo from "./images/Civil.jpeg";
 import Footer from "./components/Footer";
 import CopyrightNote from "./components/CopyrightNote";
+// import Error from "./components/Error";
 
 function App() {
   return (
@@ -40,11 +41,12 @@ function App() {
       <Card
         class="Civil"
         name="Civil"
-        link="Civil\Civil.html"
+        link="/Error"
         image={CivilLogo}
       ></Card>
       <Footer></Footer>
       <CopyrightNote></CopyrightNote>
+      {/* <Error></Error> */}
     </div>
   );
 }

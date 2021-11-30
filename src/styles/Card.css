@@ -34,11 +34,11 @@
           align-items: center;
 }
 
-.Card .InfoScience,
-.Card .ComputerScience,
-.Card .Mechanical,
-.Card .Electronic,
-.Card .Civil {
+.Card .CompDiv .InfoScience,
+.Card .CompDiv .ComputerScience,
+.Card .CompDiv .Mechanical,
+.Card .CompDiv .Electronic,
+.Card .CompDiv .Civil {
   position: relative;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -63,20 +63,20 @@
   transition: 1s all linear;
 }
 
-.Card .InfoScience a,
-.Card .ComputerScience a,
-.Card .Mechanical a,
-.Card .Electronic a,
-.Card .Civil a {
+.Card .CompDiv .InfoScience a,
+.Card .CompDiv .ComputerScience a,
+.Card .CompDiv .Mechanical a,
+.Card .CompDiv .Electronic a,
+.Card .CompDiv .Civil a {
   text-decoration: none;
   color: orangered;
 }
 
-.Card .InfoScience img,
-.Card .ComputerScience img,
-.Card .Mechanical img,
-.Card .Electronic img,
-.Card .Civil img {
+.Card .CompDiv .InfoScience img,
+.Card .CompDiv .ComputerScience img,
+.Card .CompDiv .Mechanical img,
+.Card .CompDiv .Electronic img,
+.Card .CompDiv .Civil img {
   margin-top: 1.6rem;
   border-radius: 5%;
   width: 30rem;
@@ -84,25 +84,25 @@
   border: 0.2rem solid orange;
 }
 
-.Card .InfoScience:hover,
-.Card .ComputerScience:hover,
-.Card .Mechanical:hover,
-.Card .Electronic:hover,
-.Card .Civil:hover {
+.Card .CompDiv .InfoScience:hover,
+.Card .CompDiv .ComputerScience:hover,
+.Card .CompDiv .Mechanical:hover,
+.Card .CompDiv .Electronic:hover,
+.Card .CompDiv .Civil:hover {
   cursor: pointer;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   -webkit-transition: ease-in-out 1s;
   transition: ease-in-out 1s;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.Card .InfoScience h1,
-.Card .ComputerScience h1,
-.Card .Mechanical h1,
-.Card .Electronic h1,
-.Card .Civil h1 {
+.Card .CompDiv .InfoScience h1,
+.Card .CompDiv .ComputerScience h1,
+.Card .CompDiv .Mechanical h1,
+.Card .CompDiv .Electronic h1,
+.Card .CompDiv .Civil h1 {
   margin-top: 1.5rem;
   font-size: 2.8rem;
   text-shadow: 0.5rem 0.5rem orange;
@@ -110,11 +110,11 @@
   color: #1d1d1d;
 }
 
-.Card .InfoScience h1:hover,
-.Card .ComputerScience h1:hover,
-.Card .Mechanical h1:hover,
-.Card .Electronic h1:hover,
-.Card .Civil h1:hover {
+.Card .CompDiv .InfoScience h1:hover,
+.Card .CompDiv .ComputerScience h1:hover,
+.Card .CompDiv .Mechanical h1:hover,
+.Card .CompDiv .Electronic h1:hover,
+.Card .CompDiv .Civil h1:hover {
   cursor: pointer;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);

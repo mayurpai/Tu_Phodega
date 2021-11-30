@@ -1,0 +1,89 @@
+img {
+  position: absolute;
+  -webkit-animation: loop alternate 0.1s infinite;
+          animation: loop alternate 0.1s infinite;
+  height: 25rem;
+  width: 25rem;
+  -webkit-transform: translate(50%);
+          transform: translate(50%);
+}
+
+.text {
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text h1 {
+  font-weight: bolder;
+  color: orangered;
+  font-family: "Bangers", cursive;
+  font-size: 15rem;
+  letter-spacing: 1rem;
+  text-shadow: 1rem 1rem 0rem rgba(255, 255, 255, 0.15);
+}
+
+.text h4 {
+  color: orangered;
+  font-family: "Bangers", cursive;
+  font-size: 6rem;
+  letter-spacing: 0.2rem;
+  text-shadow: 1rem 1rem 0rem rgba(255, 255, 255, 0.15);
+}
+
+.text a {
+  text-decoration: none;
+}
+
+.text button {
+  margin-top: 1.5rem;
+  font-family: "Share Tech Mono", monospace;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: whitesmoke;
+  background-image: -webkit-gradient(linear, left top, right top, from(orangered), color-stop(51%, orange), to(orangered));
+  background-image: linear-gradient(to right, orangered 0%, orange 51%, orangered 100%);
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-radius: 4rem;
+  width: 30.5rem;
+  height: 4rem;
+}
+
+.text #one {
+  cursor: pointer;
+  animation: loads alternate-reverse 0.3s 0.1s infinite;
+}
+
+@-webkit-keyframes loop {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+@keyframes loop {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=Error.css.map */

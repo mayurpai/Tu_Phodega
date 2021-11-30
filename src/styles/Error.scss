@@ -1,0 +1,71 @@
+img {
+  position: absolute;
+  animation: loop alternate 0.1s infinite;
+  height: 25rem;
+  width: 25rem;
+  transform: translate(50%);
+}
+
+.text {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  & h1 {
+    font-weight: bolder;
+    color: orangered;
+    font-family: "Bangers", cursive;
+    font-size: 15rem;
+    letter-spacing: 1rem;
+    text-shadow: 1rem 1rem 0rem rgba(255, 255, 255, 0.15);
+  }
+
+  & h4 {
+    color: orangered;
+    font-family: "Bangers", cursive;
+    font-size: 6rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 1rem 1rem 0rem rgba(255, 255, 255, 0.15);
+  }
+
+  & a {
+    text-decoration: none;
+  }
+
+  & button {
+    margin-top: 1.5rem;
+    font-family: "Share Tech Mono", monospace;
+    text-align: center;
+    transition: 0.5s;
+    color: whitesmoke;
+    background-image: linear-gradient(
+      to right,
+      orangered 0%,
+      orange 51%,
+      orangered 100%
+    );
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 4rem;
+    width: 30.5rem;
+    height: 4rem;
+  }
+
+  & #one {
+    cursor: pointer;
+    animation: loads alternate-reverse 0.3s 0.1s infinite;
+  }
+}
+
+@keyframes loop {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
