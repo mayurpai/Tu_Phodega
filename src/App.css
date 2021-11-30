@@ -11,6 +11,32 @@
   user-select: none;
 }
 
+.App {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  scroll-behavior: smooth;
+  /* background: url('images/bg.jpg') no-repeat; */
+  /* background-size: cover; */
+}
+
 html {
   font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+::-webkit-scrollbar-thumb {
+  animation: load alternate-reverse 0.1s infinite;
+  background: linear-gradient(orange, orangered);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  animation: load alternate-reverse 0.1s infinite;
+  background: linear-gradient(orangered, orange);
 }

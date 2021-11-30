@@ -1,0 +1,163 @@
+.Card {
+  position: absolute;
+  height: 150rem;
+  width: 100%;
+  border-radius: 5rem;
+  background-size: cover;
+  background: transparent;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.Card .CompDiv {
+  position: absolute;
+  height: 50rem;
+  width: 100rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 10rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Card .InfoScience,
+.Card .ComputerScience,
+.Card .Mechanical,
+.Card .Electronic,
+.Card .Civil {
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: orangered;
+  border: 0.3rem solid orange;
+  animation: load alternate-reverse 0.1s infinite;
+  height: 34rem;
+  width: 32rem;
+  border-radius: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
+          box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
+  -webkit-transition: 1s all linear;
+  transition: 1s all linear;
+}
+
+.Card .InfoScience a,
+.Card .ComputerScience a,
+.Card .Mechanical a,
+.Card .Electronic a,
+.Card .Civil a {
+  text-decoration: none;
+  color: orangered;
+}
+
+.Card .InfoScience img,
+.Card .ComputerScience img,
+.Card .Mechanical img,
+.Card .Electronic img,
+.Card .Civil img {
+  margin-top: 1.6rem;
+  border-radius: 5%;
+  width: 30rem;
+  height: 25rem;
+  border: 0.2rem solid orange;
+}
+
+.Card .InfoScience:hover,
+.Card .ComputerScience:hover,
+.Card .Mechanical:hover,
+.Card .Electronic:hover,
+.Card .Civil:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+.Card .InfoScience:hover,
+.Card .ComputerScience:hover,
+.Card .Mechanical:hover,
+.Card .Electronic:hover,
+.Card .Civil:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.Card .InfoScience h1,
+.Card .ComputerScience h1,
+.Card .Mechanical h1,
+.Card .Electronic h1,
+.Card .Civil h1 {
+  margin-top: 1.5rem;
+  font-size: 2.8rem;
+  text-shadow: 0.5rem 0.5rem orange;
+  font-family: "Pacifico", cursive;
+  color: #1d1d1d;
+}
+
+.Card .InfoScience h1:hover,
+.Card .ComputerScience h1:hover,
+.Card .Mechanical h1:hover,
+.Card .Electronic h1:hover,
+.Card .Civil h1:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+@-webkit-keyframes load {
+  0% {
+    opacity: 1;
+    color: #111;
+    width: 32rem;
+    background-color: transparent;
+  }
+  100% {
+    opacity: 1;
+    width: 32rem;
+    background-color: orangered;
+  }
+}
+
+@keyframes load {
+  0% {
+    opacity: 1;
+    color: #111;
+    width: 32rem;
+    background-color: transparent;
+  }
+  100% {
+    opacity: 1;
+    width: 32rem;
+    background-color: orangered;
+  }
+}
+/*# sourceMappingURL=Card.css.map */

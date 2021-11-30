@@ -4,8 +4,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div>
-      <div class="tuphodega">
+      <div className="tuphodega">
         <a href="index.html">
           <ul>
             <li>T</li>
@@ -20,7 +19,6 @@ function Header() {
           </ul>
         </a>
       </div>
-    </div>
   );
 }
 
