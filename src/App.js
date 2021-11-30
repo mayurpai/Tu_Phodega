@@ -7,7 +7,7 @@ import ElectronicLogo from "./images/Electronic.jpeg";
 import MechanicalLogo from "./images/Mechanical.jpeg";
 import CivilLogo from "./images/Civil.jpeg";
 import Footer from "./components/Footer";
-
+import CopyrightNote from "./components/CopyrightNote";
 
 function App() {
   return (
@@ -44,6 +44,7 @@ function App() {
         image={CivilLogo}
       ></Card>
       <Footer></Footer>
+      <CopyrightNote></CopyrightNote>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+.CopyrightNote {
+  position: absolute;
+  top: 141rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  color: orangered;
+  font-weight: bolder;
+  font-family: serif;
+  pointer-events: none;
+}
+/*# sourceMappingURL=CopyrightNote.css.map */

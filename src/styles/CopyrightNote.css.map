@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,MAAM;EACX,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,SAAS;EAChB,WAAW,EAAE,MAAM;EACnB,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,IAAI;CACrB",
+    "sources": [
+        "CopyrightNote.scss"
+    ],
+    "names": [],
+    "file": "CopyrightNote.css"
+}

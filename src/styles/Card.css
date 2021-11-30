@@ -94,17 +94,6 @@
           transform: scale(1);
   -webkit-transition: ease-in-out 1s;
   transition: ease-in-out 1s;
-}
-
-.Card .InfoScience:hover,
-.Card .ComputerScience:hover,
-.Card .Mechanical:hover,
-.Card .Electronic:hover,
-.Card .Civil:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: ease-in-out 1s;
-  transition: ease-in-out 1s;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
