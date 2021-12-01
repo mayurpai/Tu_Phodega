@@ -1,3 +1,97 @@
+@media (max-width: 1600px) {
+  html {
+    font-size: 65%;
+  }
+  img {
+    top: 10rem;
+  }
+  .text {
+    top: 35rem;
+  }
+  .Footer {
+    top: 63.1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+  img {
+    top: 10rem;
+  }
+  .Footer {
+    top: 75rem;
+  }
+  .text {
+    top: 35rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 35%;
+  }
+  img {
+    top: 45rem;
+  }
+  .Footer {
+    top: 120rem;
+  }
+  .text {
+    top: 70rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 29%;
+  }
+  img {
+    top: 45rem;
+  }
+  .Footer {
+    top: 140rem;
+  }
+  .text {
+    top: 70rem;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 21%;
+  }
+  img {
+    top: 45rem;
+  }
+  .text {
+    top: 70rem;
+  }
+  .Footer {
+    top: 140rem;
+  }
+}
+
+.Container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Footer {
+  position: absolute;
+  background-color: transparent;
+  height: 5rem;
+  width: 100vw;
+}
+
 img {
   position: absolute;
   -webkit-animation: loop alternate 0.1s infinite;
@@ -84,6 +178,30 @@ img {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes loads {
+  0% {
+    opacity: 1;
+    color: black;
+    background-color: transparent;
+  }
+  100% {
+    opacity: 1;
+    background-color: whitesmoke;
+  }
+}
+
+@keyframes loads {
+  0% {
+    opacity: 1;
+    color: black;
+    background-color: transparent;
+  }
+  100% {
+    opacity: 1;
+    background-color: whitesmoke;
   }
 }
 /*# sourceMappingURL=Error.css.map */

@@ -7,7 +7,7 @@ const Card = (props) => {
     <div className="Card">
       <div className="CompDiv">
         <div className={props.class}>
-          <a href="/Error" Title={props.name}>
+          <a href={props.link} Title={props.name}>
             <h1>{props.name}</h1>
             <img src={props.image} alt={props.name} />
           </a>

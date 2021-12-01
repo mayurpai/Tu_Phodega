@@ -27,6 +27,99 @@ html {
   font-size: 62.5%;
 }
 
+@media (max-width: 2560px) {
+  html {
+    font-size: 65%;
+  }
+
+  .Footer {
+    top: 135rem;
+  }
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 65%;
+  }
+
+  .Footer {
+    top: 135rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 65%;
+  }
+
+  .Footer {
+    top: 135rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 35%;
+  }
+
+  .Footer {
+    top: 135rem;
+  }
+}
+
+@media (max-width: 540px) and (max-height: 720px) {
+  html {
+    font-size: 35%;
+  }
+
+  .Footer {
+    top: 135rem;
+  }
+
+  .App {
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 29%;
+  }
+
+  .Footer {
+    top: 135rem;
+  }
+}
+
+@media (max-width: 390px) {
+  html {
+    font-size: 26.5%;
+  }
+
+  .Footer {
+    top: 135rem;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 21%;
+  }
+
+  .Footer {
+    top: 135rem;
+  }
+}
+
+@media (max-width: 280px) {
+  html {
+    font-size: 17%;
+  }
+
+  .Footer {
+    top: 135rem;
+  }
+}
+
 a {
   cursor: pointer;
   text-decoration: none;

@@ -10,6 +10,8 @@ import Footer from "./components/Footer";
 import CopyrightNote from "./components/CopyrightNote";
 // import Error from "./components/Error";
 
+// import { BrowserRouter as Router, Route } from "react-router-dom";
+
 function App() {
   return (
     <div className="App">
@@ -41,7 +43,7 @@ function App() {
       <Card
         class="Civil"
         name="Civil"
-        link="/Error"
+        link="Civil/Civil.html"
         image={CivilLogo}
       ></Card>
       <Footer></Footer>
