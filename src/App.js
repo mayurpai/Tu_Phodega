@@ -15,14 +15,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/Error" element={<Error />} />
-        <Route
-          exact
-          path="/Semester"
-          element={
-            ((<Semester link="/Error" id="1" semester="Third Semester" />),
-            (<Semester link="/Error" id="2" semester="Forth Semester" />))
-          }
-        />
+        <Route exact path="/Semester" element={<Semester />} />
       </Routes>
     </div>
   );

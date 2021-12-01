@@ -6,6 +6,7 @@
   position: absolute;
   background-color: transparent;
   overflow: hidden;
+  z-index: 999;
 }
 
 .Footer .Creator,

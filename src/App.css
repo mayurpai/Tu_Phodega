@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   overflow-x: hidden;
+  box-sizing: border-box;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -74,9 +74,6 @@ html {
 
   .Footer {
     top: 135rem;
-  }
-
-  .App {
   }
 }
 

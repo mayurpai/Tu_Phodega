@@ -9,17 +9,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
   text-align: center;
 
   .CompDiv {
     position: absolute;
-    height: 50rem;
-    width: 100rem;
+    height: 125rem;
+    width: 100vw;
     display: flex;
+    flex-wrap: wrap;
+    flex: 1;
     top: 10rem;
     justify-content: space-evenly;
     text-align: center;
-    align-items: center;
 
     .InfoScience,
     .ComputerScience,
@@ -77,7 +79,6 @@
     }
   }
 }
-
 @keyframes load {
   0% {
     opacity: 1;
