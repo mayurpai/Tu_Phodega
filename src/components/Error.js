@@ -3,6 +3,7 @@ import ErrorImage from "../images/Error.png";
 
 import React, { Component } from "react";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 class Error extends Component {
   render() {
@@ -12,11 +13,11 @@ class Error extends Component {
         <div className="text">
           <h1>ENGINEER</h1>
           <h4> IN THE MAKING</h4>
-          <a href="/">
+          <Link to="/">
             <button id="one">
               <p>Back To Homepage</p>
             </button>
-          </a>
+          </Link>
         </div>
         <Footer></Footer>
       </>

@@ -1,11 +1,12 @@
 import "../styles/Header.css";
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="tuphodega">
-      <a href="index.html">
+      <Link to="/">
         <ul>
           <li>T</li>
           <li>u &nbsp;</li>
@@ -17,7 +18,7 @@ function Header() {
           <li>g</li>
           <li>a</li>
         </ul>
-      </a>
+      </Link>
     </div>
   );
 }

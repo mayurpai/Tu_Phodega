@@ -5,40 +5,42 @@ import ComputerLogo from "../images/Computer.jpeg";
 import ElectronicLogo from "../images/Electronic.jpeg";
 import MechanicalLogo from "../images/Mechanical.jpeg";
 import CivilLogo from "../images/Civil.jpeg";
+import CopyrightNote from "./CopyrightNote";
 
 function Home() {
   return (
     <>
       <Card
-        class="InfoScience"
-        name="Information Science"
-        link="InformationScience\InfoScience.html"
-        image={InfoscienceLogo}
-      ></Card>
-      <Card
         class="ComputerScience"
         name="Computer Science"
-        link="ComputerScience\ComputerScience.html"
+        link="/Semester"
         image={ComputerLogo}
       ></Card>
       <Card
         class="Mechanical"
         name="Mechanical"
-        link="Mechanical\Mechanical.html"
+        link="/Semester"
         image={MechanicalLogo}
       ></Card>
       <Card
         class="Electronic"
         name="Electronic"
-        link="Electronic\Electronic.html"
+        link="/Semester"
         image={ElectronicLogo}
       ></Card>
       <Card
         class="Civil"
         name="Civil"
-        link="Civil/Civil.html"
+        link="/Semester"
         image={CivilLogo}
       ></Card>
+      <Card
+        class="InfoScience"
+        name="Information Science"
+        link="/Semester"
+        image={InfoscienceLogo}
+      ></Card>
+      <CopyrightNote></CopyrightNote>
     </>
   );
 }

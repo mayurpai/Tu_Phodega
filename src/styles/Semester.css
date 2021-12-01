@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (max-width: 2560px) {
+  html {
+    font-size: 65%;
+  }
+  .Footer {
+    top: 62.3rem;
+  }
+  .Semester {
+    top: 11rem;
+  }
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 65%;
+  }
+  .Footer {
+    top: 62.3rem;
+  }
+  .Semester {
+    top: 11rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+  .Footer {
+    top: 66rem;
+  }
+  .Semester {
+    top: 11rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 35%;
+  }
+  .Footer {
+    top: 120rem;
+  }
+  .Semester {
+    top: 35rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 29%;
+  }
+  .Footer {
+    top: 115rem;
+  }
+  .Semester {
+    top: 35rem;
+  }
+}
+
+@media (max-width: 390px) {
+  html {
+    font-size: 27%;
+  }
+  .Footer {
+    top: 115rem;
+  }
+  .Semester {
+    top: 35rem;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 25%;
+  }
+  .Footer {
+    top: 115rem;
+  }
+  .Semester {
+    top: 35rem;
+  }
+}
+
+.Semester {
+  position: absolute;
+  height: 100vh;
+  width: 70rem;
+  border-radius: 5rem;
+  background-size: cover;
+  padding: 1rem 5rem 1rem 5rem;
+}
+
+.Semester button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 2.5rem;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 100rem auto;
+  color: whitesmoke;
+  border-radius: 4rem;
+  width: 40rem;
+  min-width: 40rem;
+  margin-top: 0.5rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(orangered), color-stop(51%, orange), to(orangered));
+  background-image: linear-gradient(to right, orangered 0%, orange 51%, orangered 100%);
+}
+
+.Semester button:hover {
+  background-position: right center;
+  transform: scale(1.1);
+  -webkit-transition: linear 0.25s;
+  transition: linear 0.25s;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.Semester button p:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+  color: #1d1d1d;
+}
+
+#one {
+  cursor: pointer;
+  animation: load alternate-reverse 0.3s 0.1s infinite;
+}
+
+#two {
+  cursor: pointer;
+  animation: load alternate-reverse 0.3s 0.2s infinite;
+}
+
+#three {
+  cursor: pointer;
+  animation: load alternate-reverse 0.3s 0.3s infinite;
+}
+
+#four {
+  cursor: pointer;
+  animation: load alternate-reverse 0.3s 0.4s infinite;
+}
+
+#five {
+  cursor: pointer;
+  animation: load alternate-reverse 0.3s 0.5s infinite;
+}
+
+#six {
+  cursor: pointer;
+  animation: load alternate-reverse 0.3s 0.6s infinite;
+}
+
+@-webkit-keyframes load {
+  0% {
+    opacity: 1;
+    color: black;
+    width: 40rem;
+    background-color: transparent;
+  }
+  100% {
+    opacity: 1;
+    width: 40rem;
+    background-color: whitesmoke;
+  }
+}
+
+@keyframes load {
+  0% {
+    opacity: 1;
+    color: black;
+    width: 40rem;
+    background-color: transparent;
+  }
+  100% {
+    opacity: 1;
+    width: 40rem;
+    background-color: whitesmoke;
+  }
+}
+
+.Footer {
+  position: absolute;
+  margin-bottom: 2.5rem;
+  height: 7rem;
+  width: 100vw;
+  background-color: transparent;
+}
+/*# sourceMappingURL=Semester.css.map */
