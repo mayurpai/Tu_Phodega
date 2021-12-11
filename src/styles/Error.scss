@@ -3,7 +3,7 @@
     font-size: 65%;
   }
 
-  img {
+  .errorImage {
     top: 10rem;
   }
 
@@ -21,7 +21,7 @@
     font-size: 55%;
   }
 
-  img {
+  .errorImage {
     top: 10rem;
   }
 
@@ -39,7 +39,7 @@
     font-size: 35%;
   }
 
-  img {
+  .errorImage {
     top: 45rem;
   }
 
@@ -57,7 +57,7 @@
     font-size: 29%;
   }
 
-  img {
+  .errorImage {
     top: 45rem;
   }
 
@@ -75,7 +75,7 @@
     font-size: 21%;
   }
 
-  img {
+  .errorImage {
     top: 45rem;
   }
 
@@ -103,7 +103,7 @@
   width: 100vw;
 }
 
-img {
+.errorImage {
   position: absolute;
   animation: loop alternate 0.1s infinite;
   height: 25rem;

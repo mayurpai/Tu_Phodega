@@ -14,35 +14,35 @@ const Card = () => {
       class: "InfoScience",
       link: "/Semester",
       name: "Information Science",
-      image: { InfoscienceLogo },
+      image: InfoscienceLogo,
       id: 1,
     },
     {
       class: "ComputerScience",
       link: "/Semester",
       name: "Computer Science",
-      image: { ComputerLogo },
+      image: ComputerLogo,
       id: 2,
     },
     {
       class: "Mechanical",
       link: "/Semester",
       name: "Mechanical",
-      image: { MechanicalLogo },
+      image: MechanicalLogo,
       id: 3,
     },
     {
       class: "Electronic",
       link: "/Semester",
       name: "Electronic",
-      image: { ElectronicLogo },
+      image: ElectronicLogo,
       id: 4,
     },
     {
       class: "Civil",
       link: "/Semester",
       name: "Civil",
-      image: { CivilLogo },
+      image: CivilLogo,
       id: 5,
     },
   ]);
@@ -53,7 +53,7 @@ const Card = () => {
           <div className={itr.class}>
             <Link to={itr.link} Title={itr.name}>
               <h1>{itr.name}</h1>
-              <img src={itr.image} alt={itr.name} />
+              <img className="logoImages" src={itr.image} alt={itr.name} />
             </Link>
           </div>
         ))}

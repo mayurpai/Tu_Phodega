@@ -9,7 +9,7 @@ class Error extends Component {
   render() {
     return (
       <>
-        <img src={ErrorImage} alt="Error" />
+        <img className="errorImage" src={ErrorImage} alt="Error" />
         <div className="text">
           <h1>ENGINEER</h1>
           <h4> IN THE MAKING</h4>

@@ -2,9 +2,6 @@
   html {
     font-size: 65%;
   }
-  .Footer {
-    top: 62.3rem;
-  }
   .Semester {
     top: 11rem;
   }
@@ -14,9 +11,6 @@
   html {
     font-size: 65%;
   }
-  .Footer {
-    top: 62.3rem;
-  }
   .Semester {
     top: 11rem;
   }
@@ -24,10 +18,7 @@
 
 @media (max-width: 1200px) {
   html {
-    font-size: 55%;
-  }
-  .Footer {
-    top: 66rem;
+    font-size: 60%;
   }
   .Semester {
     top: 11rem;
@@ -38,9 +29,6 @@
   html {
     font-size: 35%;
   }
-  .Footer {
-    top: 120rem;
-  }
   .Semester {
     top: 35rem;
   }
@@ -49,9 +37,6 @@
 @media (max-width: 450px) {
   html {
     font-size: 29%;
-  }
-  .Footer {
-    top: 115rem;
   }
   .Semester {
     top: 35rem;
@@ -62,9 +47,6 @@
   html {
     font-size: 27%;
   }
-  .Footer {
-    top: 115rem;
-  }
   .Semester {
     top: 35rem;
   }
@@ -73,9 +55,6 @@
 @media (max-width: 320px) {
   html {
     font-size: 25%;
-  }
-  .Footer {
-    top: 115rem;
   }
   .Semester {
     top: 35rem;
@@ -191,6 +170,7 @@
   position: absolute;
   margin-bottom: 2.5rem;
   height: 7rem;
+  top: 135rem;
   width: 100vw;
   background-color: transparent;
 }

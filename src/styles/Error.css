@@ -2,7 +2,7 @@
   html {
     font-size: 65%;
   }
-  img {
+  .errorImage {
     top: 10rem;
   }
   .text {
@@ -17,7 +17,7 @@
   html {
     font-size: 55%;
   }
-  img {
+  .errorImage {
     top: 10rem;
   }
   .Footer {
@@ -32,7 +32,7 @@
   html {
     font-size: 35%;
   }
-  img {
+  .errorImage {
     top: 45rem;
   }
   .Footer {
@@ -47,7 +47,7 @@
   html {
     font-size: 29%;
   }
-  img {
+  .errorImage {
     top: 45rem;
   }
   .Footer {
@@ -62,7 +62,7 @@
   html {
     font-size: 21%;
   }
-  img {
+  .errorImage {
     top: 45rem;
   }
   .text {
@@ -92,7 +92,7 @@
   width: 100vw;
 }
 
-img {
+.errorImage {
   position: absolute;
   -webkit-animation: loop alternate 0.1s infinite;
           animation: loop alternate 0.1s infinite;

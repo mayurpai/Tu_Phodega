@@ -11,16 +11,16 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  align-items: center;
 
   .CompDiv {
     position: absolute;
-    height: 125rem;
-    width: 100vw;
+    min-height: max-content;
     display: flex;
     flex-wrap: wrap;
-    flex: 1;
-    top: 10rem;
-    justify-content: space-evenly;
+    top: 12rem;
+    padding: 2rem;
+    justify-content: space-around;
     text-align: center;
 
     .InfoScience,
@@ -38,8 +38,6 @@
       width: 32rem;
       border-radius: 5%;
       display: flex;
-      justify-content: center;
-      align-items: center;
       box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
       transition: 1s all linear;
 
@@ -48,12 +46,18 @@
         color: orangered;
       }
 
-      & img {
+      & .logoImages {
         margin-top: 1.6rem;
         border-radius: 5%;
         width: 30rem;
         height: 25rem;
         border: 0.2rem solid orange;
+
+        &:hover {
+          cursor: pointer;
+          transform: scale(1);
+          transition: ease-in-out 1s;
+        }
       }
 
       &:hover {

@@ -19,24 +19,25 @@
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .Card .CompDiv {
   position: absolute;
-  height: 125rem;
-  width: 100vw;
+  min-height: -webkit-max-content;
+  min-height: -moz-max-content;
+  min-height: max-content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  top: 10rem;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  top: 12rem;
+  padding: 2rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   text-align: center;
 }
 
@@ -59,10 +60,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
           box-shadow: 1.5rem 1.5rem 0rem rgba(255, 255, 255, 0.1);
   -webkit-transition: 1s all linear;
@@ -78,16 +75,28 @@
   color: orangered;
 }
 
-.Card .CompDiv .InfoScience img,
-.Card .CompDiv .ComputerScience img,
-.Card .CompDiv .Mechanical img,
-.Card .CompDiv .Electronic img,
-.Card .CompDiv .Civil img {
+.Card .CompDiv .InfoScience .logoImages,
+.Card .CompDiv .ComputerScience .logoImages,
+.Card .CompDiv .Mechanical .logoImages,
+.Card .CompDiv .Electronic .logoImages,
+.Card .CompDiv .Civil .logoImages {
   margin-top: 1.6rem;
   border-radius: 5%;
   width: 30rem;
   height: 25rem;
   border: 0.2rem solid orange;
+}
+
+.Card .CompDiv .InfoScience .logoImages:hover,
+.Card .CompDiv .ComputerScience .logoImages:hover,
+.Card .CompDiv .Mechanical .logoImages:hover,
+.Card .CompDiv .Electronic .logoImages:hover,
+.Card .CompDiv .Civil .logoImages:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
 }
 
 .Card .CompDiv .InfoScience:hover,

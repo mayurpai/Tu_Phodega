@@ -3,9 +3,9 @@
     font-size: 65%;
   }
 
-  .Footer {
-    top: 62.3rem;
-  }
+  // .Footer {
+  //   top: 62.3rem;
+  // }
 
   .Semester {
     top: 11rem;
@@ -17,9 +17,9 @@
     font-size: 65%;
   }
 
-  .Footer {
-    top: 62.3rem;
-  }
+  // .Footer {
+  //   top: 62.3rem;
+  // }
 
   .Semester {
     top: 11rem;
@@ -28,26 +28,40 @@
 
 @media (max-width: 1200px) {
   html {
-    font-size: 55%;
+    font-size: 60%;
   }
 
-  .Footer {
-    top: 66rem;
-  }
+  // .Footer {
+  //   top: 66rem;
+  // }
 
   .Semester {
     top: 11rem;
   }
 }
 
+// @media (max-width: 991px) {
+//   html {
+//     font-size: 35%;
+//   }
+
+//   // .Footer {
+//   //   top: 135rem;
+//   // }
+
+//   .Semester {
+//     top: 35rem;
+//   }
+// }
+
 @media (max-width: 768px) {
   html {
     font-size: 35%;
   }
 
-  .Footer {
-    top: 120rem;
-  }
+  // .Footer {
+  //   top: 120rem;
+  // }
 
   .Semester {
     top: 35rem;
@@ -59,9 +73,9 @@
     font-size: 29%;
   }
 
-  .Footer {
-    top: 115rem;
-  }
+  // .Footer {
+  //   top: 115rem;
+  // }
 
   .Semester {
     top: 35rem;
@@ -73,9 +87,9 @@
     font-size: 27%;
   }
 
-  .Footer {
-    top: 115rem;
-  }
+  // .Footer {
+  //   top: 115rem;
+  // }
 
   .Semester {
     top: 35rem;
@@ -87,9 +101,9 @@
     font-size: 25%;
   }
 
-  .Footer {
-    top: 115rem;
-  }
+  // .Footer {
+  //   top: 115rem;
+  // }
 
   .Semester {
     top: 35rem;
@@ -189,6 +203,7 @@
   position: absolute;
   margin-bottom: 2.5rem;
   height: 7rem;
+  top: 135rem;
   width: 100vw;
   background-color: transparent;
 }
