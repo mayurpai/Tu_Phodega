@@ -33,7 +33,6 @@
       text-align: center;
       background-color: orangered;
       border: 0.3rem solid orange;
-      animation: load alternate-reverse 0.1s infinite;
       height: 34rem;
       width: 32rem;
       border-radius: 5%;
@@ -65,6 +64,7 @@
         transform: scale(1.1);
         transition: ease-in-out 1s;
         box-shadow: none;
+        animation: load alternate-reverse 0.1s infinite;
       }
 
       & h1 {
@@ -96,4 +96,8 @@
     width: 32rem;
     background-color: orangered;
   }
+}
+
+.Footer {
+  top: 135rem !important;
 }
