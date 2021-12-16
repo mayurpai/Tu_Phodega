@@ -110,7 +110,6 @@
   transition: ease-in-out 1s;
   -webkit-box-shadow: none;
           box-shadow: none;
-  animation: load alternate-reverse 0.1s infinite;
 }
 
 .Card .CompDiv .InfoScience h1,
@@ -119,53 +118,40 @@
 .Card .CompDiv .Electronic h1,
 .Card .CompDiv .Civil h1 {
   margin-top: 1.5rem;
+  animation: zoom alternate-reverse 0.5s 0.1s infinite;
   font-size: 2.8rem;
   text-shadow: 0.5rem 0.5rem orange;
   font-family: "Pacifico", cursive;
   color: #1d1d1d;
 }
 
-.Card .CompDiv .InfoScience h1:hover,
-.Card .CompDiv .ComputerScience h1:hover,
-.Card .CompDiv .Mechanical h1:hover,
-.Card .CompDiv .Electronic h1:hover,
-.Card .CompDiv .Civil h1:hover {
-  cursor: pointer;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition: ease-in-out 1s;
-  transition: ease-in-out 1s;
-}
-
-@-webkit-keyframes load {
-  0% {
-    opacity: 1;
-    color: #111;
-    width: 32rem;
-    background-color: transparent;
-  }
-  100% {
-    opacity: 1;
-    width: 32rem;
-    background-color: orangered;
-  }
-}
-
-@keyframes load {
-  0% {
-    opacity: 1;
-    color: #111;
-    width: 32rem;
-    background-color: transparent;
-  }
-  100% {
-    opacity: 1;
-    width: 32rem;
-    background-color: orangered;
-  }
-}
-
 .Footer {
-  top: 135rem !important;
+  top: 135rem;
+}
+
+@-webkit-keyframes zoom {
+  0% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    color: #111111;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    color: whitesmoke;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    color: #111111;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    color: whitesmoke;
+  }
 }
 /*# sourceMappingURL=Card.css.map */

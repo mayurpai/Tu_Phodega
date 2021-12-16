@@ -129,7 +129,7 @@
   transition: ease-in-out 1s;
   cursor: pointer;
   color: #1d1d1d;
-  animation: black alternate-reverse 0.25s 0.1s infinite;
+  animation: black alternate-reverse 0.5s 0.1s infinite;
 }
 
 #one {
@@ -194,7 +194,6 @@
   position: absolute;
   margin-bottom: 2.5rem;
   height: 7rem;
-  top: 135rem;
   width: 100vw;
   background-color: transparent;
 }
@@ -203,10 +202,12 @@
   0% {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
+    color: #111111;
   }
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
+    color: whitesmoke;
   }
 }
 
@@ -214,10 +215,12 @@
   0% {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
+    color: #111111;
   }
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
+    color: whitesmoke;
   }
 }
 /*# sourceMappingURL=Semester.css.map */

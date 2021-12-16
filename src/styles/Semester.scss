@@ -137,7 +137,7 @@
       transition: ease-in-out 1s;
       cursor: pointer;
       color: rgb(29, 29, 29);
-      animation: black alternate-reverse 0.25s 0.1s infinite;
+      animation: black alternate-reverse 0.5s 0.1s infinite;
     }
   }
 }
@@ -191,7 +191,7 @@
   position: absolute;
   margin-bottom: 2.5rem;
   height: 7rem;
-  top: 135rem;
+  // top: 135rem;
   width: 100vw;
   background-color: transparent;
 }
@@ -199,8 +199,10 @@
 @keyframes black {
   0% {
     transform: scale(1.5);
+    color: rgb(17, 17, 17);
   }
   100% {
     transform: scale(1);
+    color: whitesmoke;
   }
 }
