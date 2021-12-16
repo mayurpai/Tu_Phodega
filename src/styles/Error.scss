@@ -105,7 +105,7 @@
 
 .errorImage {
   position: absolute;
-  animation: loop alternate 0.1s infinite;
+  animation: loop alternate 1s infinite;
   height: 25rem;
   width: 25rem;
   transform: translate(50%);
@@ -139,25 +139,55 @@
   }
 
   & button {
-    margin-top: 1.5rem;
+    flex: 1 1 auto;
+    padding: 1.5rem;
     font-family: "Share Tech Mono", monospace;
+    font-size: 2rem;
+    font-weight: bolder;
     text-align: center;
     transition: 0.5s;
+    background-size: 100rem auto;
     color: whitesmoke;
+    border-radius: 4rem;
+    width: 30.5rem;
+    min-width: 30.5rem;
+    margin-top: 0.5rem;
     background-image: linear-gradient(
       to right,
       orangered 0%,
       orange 51%,
       orangered 100%
     );
-    font-size: 1.6rem;
-    font-weight: bold;
-    border-radius: 4rem;
-    width: 30.5rem;
-    height: 4rem;
+
+    &:hover {
+      background-position: right center;
+      transform: scale(0.9);
+      // border-bottom: .5rem solid ;
+      box-shadow: 0.5rem 0.5rem 0rem rgba(255, 255, 255, 0.25);
+      transition: linear 0.25s;
+    }
   }
 
-  & #one {
+  // & button {
+  //   margin-top: 1.5rem;
+  //   font-family: "Share Tech Mono", monospace;
+  //   text-align: center;
+  //   transition: 0.5s;
+  //   color: whitesmoke;
+  //   background-image: linear-gradient(
+  //     to right,
+  //     orangered 0%,
+  //     orange 51%,
+  //     orangered 100%
+  //   );
+  //   font-size: 1.6rem;
+  //   font-weight: bold;
+  //   border-radius: 4rem;
+  //   width: 30.5rem;
+  //   height: 4rem;
+  // }
+
+  #one {
     cursor: pointer;
     animation: loads alternate-reverse 0.3s 0.1s infinite;
   }
@@ -166,7 +196,8 @@
 @keyframes loop {
   0% {
     transform: scale(1);
-    opacity: 0;
+    opacity: 0.5;
+    filter: blur(1rem);
   }
 
   100% {
