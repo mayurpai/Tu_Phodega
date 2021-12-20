@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="tuphodega">
-      <Link to="/">
+      <Link to="/Tu_Phodega">
         <ul>
           <li>T</li>
           <li>u &nbsp;</li>

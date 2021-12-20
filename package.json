@@ -1,5 +1,6 @@
 {
   "name": "Tu_Phodega",
+  "homepage": "https://mayurpai.github.io/Tu_Phodega",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,8 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "web-vitals": "^1.1.2"
   }
 }

@@ -13,7 +13,7 @@ class Error extends Component {
         <div className="text">
           <h1>ENGINEER</h1>
           <h4> IN THE MAKING</h4>
-          <Link to="/">
+          <Link to="/Tu_Phodega">
             <button id="one">
               <p>Back To Homepage</p>
             </button>
