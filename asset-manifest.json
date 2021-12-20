@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Tu_Phodega/static/css/main.2b1808b5.chunk.css",
+    "main.js": "/Tu_Phodega/static/js/main.0f8fe5c5.chunk.js",
+    "main.js.map": "/Tu_Phodega/static/js/main.0f8fe5c5.chunk.js.map",
+    "runtime-main.js": "/Tu_Phodega/static/js/runtime-main.0d9716cc.js",
+    "runtime-main.js.map": "/Tu_Phodega/static/js/runtime-main.0d9716cc.js.map",
+    "static/js/2.50db2ef5.chunk.js": "/Tu_Phodega/static/js/2.50db2ef5.chunk.js",
+    "static/js/2.50db2ef5.chunk.js.map": "/Tu_Phodega/static/js/2.50db2ef5.chunk.js.map",
+    "static/js/3.5049aa53.chunk.js": "/Tu_Phodega/static/js/3.5049aa53.chunk.js",
+    "static/js/3.5049aa53.chunk.js.map": "/Tu_Phodega/static/js/3.5049aa53.chunk.js.map",
+    "index.html": "/Tu_Phodega/index.html",
+    "static/css/main.2b1808b5.chunk.css.map": "/Tu_Phodega/static/css/main.2b1808b5.chunk.css.map",
+    "static/js/2.50db2ef5.chunk.js.LICENSE.txt": "/Tu_Phodega/static/js/2.50db2ef5.chunk.js.LICENSE.txt",
+    "static/media/Civil.c03035c5.jpeg": "/Tu_Phodega/static/media/Civil.c03035c5.jpeg",
+    "static/media/Computer.5a6a46fa.jpeg": "/Tu_Phodega/static/media/Computer.5a6a46fa.jpeg",
+    "static/media/Electronic.5f60a01f.jpeg": "/Tu_Phodega/static/media/Electronic.5f60a01f.jpeg",
+    "static/media/Error.7147f1ef.png": "/Tu_Phodega/static/media/Error.7147f1ef.png",
+    "static/media/Infosciene.94514d3f.jpeg": "/Tu_Phodega/static/media/Infosciene.94514d3f.jpeg",
+    "static/media/Mechanical.b478c8d9.jpeg": "/Tu_Phodega/static/media/Mechanical.b478c8d9.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d9716cc.js",
+    "static/js/2.50db2ef5.chunk.js",
+    "static/css/main.2b1808b5.chunk.css",
+    "static/js/main.0f8fe5c5.chunk.js"
+  ]
+}
