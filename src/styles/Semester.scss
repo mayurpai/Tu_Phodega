@@ -137,7 +137,7 @@
       transition: ease-in-out 1s;
       cursor: pointer;
       color: rgb(29, 29, 29);
-      animation: black alternate-reverse 0.5s 0.1s infinite;
+      animation: zoom alternate-reverse 0.3s 0.1s infinite;
     }
   }
 }
@@ -196,7 +196,7 @@
   background-color: transparent;
 }
 
-@keyframes black {
+@keyframes zoom {
   0% {
     transform: scale(1.5);
     color: rgb(17, 17, 17);

@@ -129,7 +129,7 @@
   transition: ease-in-out 1s;
   cursor: pointer;
   color: #1d1d1d;
-  animation: black alternate-reverse 0.5s 0.1s infinite;
+  animation: zoom alternate-reverse 0.3s 0.1s infinite;
 }
 
 #one {
@@ -198,7 +198,7 @@
   background-color: transparent;
 }
 
-@-webkit-keyframes black {
+@-webkit-keyframes zoom {
   0% {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
@@ -211,7 +211,7 @@
   }
 }
 
-@keyframes black {
+@keyframes zoom {
   0% {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
