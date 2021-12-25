@@ -13,9 +13,11 @@ function App() {
       <Header></Header>
       <Footer></Footer>
       <Routes>
-        <Route exact path="/Tu_Phodega" element={<Home />} />
+        {/* <Route exact path="/Tu_Phodega" element={<Home />} /> */}
+        <Route exact path="/Tu_Phodega" element={<Error />} />
         <Route exact path="/Tu_Phodega/Error" element={<Error />} />
-        <Route exact path="/Tu_Phodega/Semester" element={<Semester />} />
+        {/* <Route exact path="/Tu_Phodega/Semester" element={<Semester />} /> */}
+        <Route exact path="/Tu_Phodega/Semester" element={<Error />} />
       </Routes>
     </div>
   );
