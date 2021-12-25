@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Tu_Phodega/static/css/main.578cc8dc.chunk.css",
-    "main.js": "/Tu_Phodega/static/js/main.7bb19d54.chunk.js",
-    "main.js.map": "/Tu_Phodega/static/js/main.7bb19d54.chunk.js.map",
+    "main.js": "/Tu_Phodega/static/js/main.d111c5a2.chunk.js",
+    "main.js.map": "/Tu_Phodega/static/js/main.d111c5a2.chunk.js.map",
     "runtime-main.js": "/Tu_Phodega/static/js/runtime-main.0d9716cc.js",
     "runtime-main.js.map": "/Tu_Phodega/static/js/runtime-main.0d9716cc.js.map",
     "static/js/2.50db2ef5.chunk.js": "/Tu_Phodega/static/js/2.50db2ef5.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.0d9716cc.js",
     "static/js/2.50db2ef5.chunk.js",
     "static/css/main.578cc8dc.chunk.css",
-    "static/js/main.7bb19d54.chunk.js"
+    "static/js/main.d111c5a2.chunk.js"
   ]
 }
